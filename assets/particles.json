@@ -49,7 +49,7 @@
         "enable": true,
         "distance": 300,
         "color": "#aaaaaa",
-        "opacity": 0.4,
+        "opacity": 0.1,
         "width": 2
       },
       "move": {
@@ -84,14 +84,14 @@
         "grab": {
           "distance": 800,
           "line_linked": {
-            "opacity": 1
+            "opacity": 0.1
           }
         },
         "bubble": {
           "distance": 800,
           "size": 80,
           "duration": 2,
-          "opacity": 0.8,
+          "opacity": 0.1,
           "speed": 3
         },
         "repulse": {
