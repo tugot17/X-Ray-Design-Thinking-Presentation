@@ -6,14 +6,13 @@ const inputPath = path.resolve(__dirname, 'index.html');
 const outputPath = path.resolve(__dirname, 'dist', 'index.html');
 
 console.log('==> Inlining...')
-new Inliner(inputPath, function (error, html) {
+new Inliner(inputPath, async function (error, html) {
   if (error) {
     console.error(error);
     return;
   }
 
   console.log('==> Inlining completed. Saving...');
-  fs.writeFile(outputPath, html, function (error) {
-    console.log(`==> File saved at ${outputPath}`);
-  });
+  fs.writeFileSync(outputPath, html)
+  console.log(`==> File saved at ${outputPath}`);
 });
