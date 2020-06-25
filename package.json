@@ -1,0 +1,22 @@
+{
+  "name": "x-ray-design-thinking-presentation",
+  "version": "1.0.0",
+  "description": "Available here: [https://tugot17.github.io/X-Ray-Design-Thinking-Presentation](https://tugot17.github.io/X-Ray-Design-Thinking-Presentation/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tugot17/X-Ray-Design-Thinking-Presentation.git"
+  },
+  "scripts": {
+    "build": "node build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tugot17/X-Ray-Design-Thinking-Presentation/issues"
+  },
+  "homepage": "https://github.com/tugot17/X-Ray-Design-Thinking-Presentation#readme",
+  "devDependencies": {
+    "inliner": "^1.13.1"
+  },
+  "dependencies": {}
+}
